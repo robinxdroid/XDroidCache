@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缓存时间:"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/et_cache_time"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="10"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="秒"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/btn_bitmap_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/simple_red"
+            android:text="Bitmap存储"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_bitmap_read"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/simple_red"
+            android:text="Bitmap读取"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/btn_drawable_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/simple_red"
+            android:text="Drawable存储"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_drawable_read"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/simple_red"
+            android:text="Drawable读取"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/img"
+        android:layout_marginLeft="10dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="center"
+        />
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+</LinearLayout>

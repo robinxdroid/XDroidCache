@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XDroidCacheExample</string>
+    <string name="json">{"name":"Robin","email":"735506404@robinx.net"}</string>
+
+</resources>

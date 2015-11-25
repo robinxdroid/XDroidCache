@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.xdroid.cache.example.widget.SquareButton
+            android:id="@+id/btn_string"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/simple_red"
+            android:gravity="center"
+            android:text="String"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <com.xdroid.cache.example.widget.SquareButton
+            android:id="@+id/btn_jso"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/simple_red"
+            android:gravity="center"
+            android:text="JSONObject"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <com.xdroid.cache.example.widget.SquareButton
+            android:id="@+id/btn_jsa"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/simple_red"
+            android:gravity="center"
+            android:text="JSONArray"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.xdroid.cache.example.widget.SquareButton
+            android:id="@+id/btn_byte"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/simple_red"
+            android:gravity="center"
+            android:text="byte[ ]"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <com.xdroid.cache.example.widget.SquareButton
+            android:id="@+id/btn_bitmap"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/simple_red"
+            android:gravity="center"
+            android:text="Bitmap"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <com.xdroid.cache.example.widget.SquareButton
+            android:id="@+id/btn_drawable"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/simple_red"
+            android:gravity="center"
+            android:text="Drawable"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.xdroid.cache.example.widget.SquareButton
+            android:id="@+id/btn_serialize"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/simple_red"
+            android:gravity="center"
+            android:text="Serialize"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <com.xdroid.cache.example.widget.SquareButton
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/simple_red"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <com.xdroid.cache.example.widget.SquareButton
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/simple_red"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

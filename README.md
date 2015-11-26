@@ -43,7 +43,7 @@ SecondLevelCacheKit.getInstance(this).put("key_string", "测试数据");
 //取缓存
 String result = SecondLevelCacheKit.getInstance(this).getAsString("key_string");
 ```
-其他详细请参见Demo
+其他详细请见Demo
 #Thanks
 [DiskLruCache](https://github.com/JakeWharton/DiskLruCache)<br>
 [ASimpleCache](https://github.com/yangfuhai/ASimpleCache)
